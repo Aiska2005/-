@@ -1,0 +1,88 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: "Montserrat", sans-serif;
+}
+a {
+  color: #fff;
+}
+a:hover {
+  color: red;
+}
+
+ul li,
+ol li {
+  list-style: none;
+}
+/* homeCardStart */
+.homeCard h3 {
+  text-align: center;
+  color: #fff;
+  font-size: 44px;
+  text-transform: uppercase;
+  margin-bottom: 10px;
+}
+.homeItemCard {
+  display: flex;
+  flex-wrap: wrap;
+  row-gap: 20px;
+  justify-content: space-between;
+}
+.homeItemCardSamsy {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+/* Media css */
+@media screen and (max-width: 1024px) {
+  .homeItemCard {
+    justify-content: space-evenly;
+  }
+  .homeItemCardSamsy {
+    flex-wrap: wrap;
+    row-gap: 50px;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .homeItemCard {
+    justify-content: center;
+  }
+  .homeCard h3 {
+    padding: 10px 0;
+    font-size: 18px;
+  }
+  .homeItemCardSamsy {
+    flex-wrap: wrap;
+    row-gap: 50px;
+    justify-content: center;
+  }
+}
+
+/* homeCardEnd */
+.textCenter {
+  color: #fff;
+  text-align: center;
+  font-size: 26px;
+}
+.glav {
+  width: 100px;
+  height: 33px;
+  border-radius: 10px;
+  padding: 4px 8px;
+  background-color: red;
+  color: #fff;
+  text-align: center;
+  cursor: pointer;
+}
+.glav a {
+  color: #fff;
+}
+.glav:hover {
+  background-color: green;
+  transition: 0.3s;
+}

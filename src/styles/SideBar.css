@@ -1,0 +1,11 @@
+.ant-layout-sider.ant-layout-sider-dark.side-bar {
+  flex: 0 0 280px !important;
+  background-color: #222 !important;
+  max-width: 280px !important;
+  min-width: 280px !important;
+  width: 280px !important;
+}
+
+.bgMenus:active {
+  background: none;
+}

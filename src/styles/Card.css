@@ -1,0 +1,22 @@
+.textCard {
+  height: 90px;
+}
+.metaColor * {
+  color: #fff !important;
+}
+.imgFood {
+  position: relative;
+  height: 240px;
+}
+.price {
+  position: absolute;
+  left: -1px;
+  top: -1px;
+  background-color: brown;
+  width: 80px !important;
+  display: inline-block;
+  border-end-end-radius: 20px;
+  border-start-start-radius: 8px;
+  color: #fff;
+  padding: 5px 12px;
+}
