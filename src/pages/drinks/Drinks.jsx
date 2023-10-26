@@ -12,6 +12,7 @@ const drinks = [
 
   { title: "Чай, Кофе", img: Imgs.chai, price: "15, 40" },
 ];
+// kelemda men )))
 const Drinks = () => {
   return (
     <>
