@@ -10,8 +10,7 @@ const drinks = [
   { title: "Sprite", img: Imgs.sprite, price: "90" },
   { title: "0.5", img: Imgs.little, price: "60" },
 
-  { title: "Чай", img: Imgs.chai, price: "15" },
-  { title: "Кофе", img: Imgs.coffee, price: "40" },
+  { title: "Чай, Кофе", img: Imgs.chai, price: "15, 40" },
 ];
 const Drinks = () => {
   return (

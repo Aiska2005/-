@@ -7,26 +7,26 @@ const soup = [
   {
     title: "Солянка",
     img: imgs.Solaynka,
-    price: "170",
+    price: "200",
     desc: `Картошка, лук, морковь, соленые огурцы, мясо...`,
   },
   {
     title: "Борщ ",
     img: imgs.Borsh,
-    price: "160",
+    price: "190",
     desc: `Картошка, лук, морковь, свёкла, капуста, томат, мясо`,
   },
   {
     title: "Фрикадельки  ",
     img: imgs.Frikadelka,
-    price: "160",
+    price: "190",
     desc: `Картошка, лук, морковь, рис, мясо (фрикадельки)
     `,
   },
   {
     title: "Суп лапша",
     img: imgs.Chiken,
-    price: "160",
+    price: "190",
     desc: `курица, лапша
     `,
   },

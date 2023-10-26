@@ -32,11 +32,17 @@ import Fran from "./meal/мясо-по-фран.jpeg";
 import govOvosh from "./meal/govOvosh.jpeg";
 import jarK from "./meal/jarK.jpeg";
 import brGrib from "./meal/brizol-s-gribami.jpeg";
+// sidedish
+import ris from "./sidedish/рис.png";
+import grechka from "./sidedish/гречка.png";
+import makarony from "./sidedish/макароны.png";
+import pure from "./sidedish/пюре.png";
 // IconSider
 import soup from "./removeIconSlider/solaynka-removebg-preview.png";
 import pasty from "./removeIconSlider/Pasta_1523360590-removebg-preview.png";
 import blda from "./removeIconSlider/с-овощями-removebg-preview.png";
 import sams from "./removeIconSlider/samsy-removebg-preview.png";
+
 export default {
   // chiken
   ChikenKl,
@@ -76,4 +82,9 @@ export default {
   // fish
   kisloSlR,
   mintai,
+  // sidedish
+  ris,
+  grechka,
+  makarony,
+  pure,
 };

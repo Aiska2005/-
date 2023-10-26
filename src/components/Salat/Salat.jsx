@@ -3,29 +3,29 @@ import Card from "../ui/Card/Card";
 import imgs from "../../assets/salaty/Index";
 const salaty = [
   {
-    title: "Селедка под шубой ",
+    title: "Селедка под шубой (350г) ",
     img: imgs.Shuba,
-    price: "160",
+    price: "200",
     desc: `селедка, лук, майонез, картофель, свекла, яйца`,
   },
   {
-    title: "Мимоза",
+    title: "Мимоза(350г)",
     img: imgs.Mimoza,
-    price: "160",
+    price: "190",
     desc: `скумбрия, лук, яйца, картофель, морковь, майонез`,
   },
   {
-    title: "Оливье ",
+    title: "Оливье(350г) ",
     img: imgs.Olivie,
-    price: "150",
+    price: "200",
     desc: `картофель, майонез, колбаса, яйца, горошек, 
 	морковь, сол. огурцы
 `,
   },
   {
-    title: "Польский",
+    title: "Польский (350г)",
     img: imgs.Polski,
-    price: "160",
+    price: "210",
     desc: `курица, сол. огурцы, грибы, яйца, картофель, 
 	майонез
 `,

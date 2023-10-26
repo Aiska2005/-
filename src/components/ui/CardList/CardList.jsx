@@ -43,7 +43,10 @@ const CardList = (props) => {
                 <LazyLoadImage
                   effect="blur"
                   width={"100%"}
-                  style={{ objectFit: { type }, height: "200px" }}
+                  style={{
+                    objectFit: { type },
+                    height: "200px",
+                  }}
                   src={item.img}
                 />
               </div>
